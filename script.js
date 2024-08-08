@@ -32,25 +32,29 @@ const text = "Rayhan";
 // };
 
 // Program 4: E-Commerce app [adding prompt(), & Number function]
-const id = 101;
-const title = "iphone 12";
-const description = "brilliant phone with 4k camera";
-const price = 549;
-const rating = 4.69;
-const brand = "Apple";
+// const id = 101;
+// const title = "iphone 12";
+// const description = "brilliant phone with 4k camera";
+// const price = 549;
+// const rating = 4.69;
+// const brand = "Apple";
 
 // getting user input using prompt()
-const discountPercentage = Number(prompt("Discount percentage? "));
+// const discountPercentage = Number(prompt("Discount percentage? "));
 
 // calculating price after discount
-const discount = (price * discountPercentage) / 100;
-const priceAfterDiscount = price - discount;
+// const discount = (price * discountPercentage) / 100;
+// const priceAfterDiscount = price - discount;
 
-console.log("id : " + id);
-console.log("title : " + title);
-console.log("description: " + description);
-console.log("price : " + price + " euros");
-console.log("discountPercentage : " + discountPercentage);
-console.log("rating : " + rating);
-console.log("brand : " + brand);
-console.log("priceAfterDiscount : " + priceAfterDiscount + " euros");
+// console.log("id : " + id);
+// console.log("title : " + title);
+// console.log("description: " + description);
+// console.log("price : " + price + " euros");
+// console.log("discountPercentage : " + discountPercentage);
+// console.log("rating : " + rating);
+// console.log("brand : " + brand);
+// console.log("priceAfterDiscount : " + priceAfterDiscount + " euros");
+
+// javascript output
+// document.getElementById("demo").innerHTML = "I Learn javascript"
+window.alert ("dont click hare");
