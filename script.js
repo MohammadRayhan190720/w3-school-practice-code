@@ -91,3 +91,7 @@ const car = {
 console.log(car.color);
 console.log (car['model'])
 console.log(car.drive());
+
+// string
+const address = `My Name is "Rayhan"`;
+console.log(address);
