@@ -88,9 +88,15 @@ const car = {
   },
 }
 
-console.log(car.color);
-console.log (car['model'])
-console.log(car.drive());
+document.getElementById("car").innerHTML = car.name + " " + car.model + " " + car.weight;
+// console.log(car.color);
+// console.log (car['model'])
+// console.log(car.drive());
+
+// car.name = "BMW";
+// console.log(car.name);
+
+
 
 // string
 const address = `My Name is "Rayhan"`;
