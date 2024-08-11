@@ -68,3 +68,26 @@ function myFunction(a, b) {
 }
 
 console.log(myFunction(4, 3));
+
+
+// object
+
+const car = {
+  name : "Fiat",
+  model : "500",
+  weight : "200kg",
+  color : "Black",
+  start : function(){
+    console.log ("car is started")
+  },
+  drive : function(){
+    console.log ("car is drived by us")
+  },
+  stop : function(){
+    console.log ("car is stoped")
+  },
+}
+
+console.log(car.color);
+console.log (car['model'])
+console.log(car.drive());
