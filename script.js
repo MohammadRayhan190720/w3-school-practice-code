@@ -58,3 +58,13 @@ const text = "Rayhan";
 // javascript output
 // document.getElementById("demo").innerHTML = "I Learn javascript"
 window.alert ("dont click hare");
+
+// function
+
+
+function myFunction(a, b) {
+  // Function returns the product of a and b
+  return a * b;
+}
+
+console.log(myFunction(4, 3));
