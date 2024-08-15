@@ -12,7 +12,7 @@ const text = "Rayhan";
 // document.getElementById("demo").innerHTML = text.charAt(1);
 // document.getElementById("demo").innerHTML = text.charCodeAt(0);
 // document.getElementById("demo").innerHTML = letter;
-// document.getElementById("demo").innerHTML = text[0];
+document.getElementById("demo").innerHTML = text[0];
 
 // let part = text.slice(2,5);
 // let part1 = text.toUpperCase();
@@ -101,3 +101,5 @@ document.getElementById("car").innerHTML = car.name + " " + car.model + " " + ca
 // string
 const address = `My Name is "Rayhan"`;
 console.log(address);
+
+
