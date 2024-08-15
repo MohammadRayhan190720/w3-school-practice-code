@@ -136,3 +136,8 @@ let lastName = "Doe";
 let fullName = `Welcome ${firstName}, ${lastName}!`;
 console.log(fullName);
 
+//numbers
+let x = "10";
+let y = "20";
+let z = x + y;
+console.log(z);
