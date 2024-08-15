@@ -107,4 +107,8 @@ let text1 = "Apple, Banana, Kiwi";
 let part = text1.slice(7, 13);
 console.log(part);
 
+let str = "Apple, Banana, Kiwi";
+let part1 = str.substring(7, 13);
+console.log(part1);
+
 
