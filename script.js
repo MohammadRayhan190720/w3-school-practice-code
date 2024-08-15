@@ -120,4 +120,8 @@ let text4 = numb.toString();
 let padded = text4.padStart(4, "0");
 console.log(padded);
 
+let text5 = "Please locate where 'locate' occurs!";
+let index = text5.indexOf("where");
+console.log(index);
+
 
