@@ -126,6 +126,13 @@ console.log(index);
 
 
 let text6 = "Hello world, welcome to the universe.";
-let start = text6.startsWith("world");
+let start = text6.startsWith("world",6);
 console.log(start)
+
+//template litelels
+let firstName = "John";
+let lastName = "Doe";
+
+let fullName = `Welcome ${firstName}, ${lastName}!`;
+console.log(fullName);
 
