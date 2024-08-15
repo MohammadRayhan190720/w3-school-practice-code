@@ -111,4 +111,8 @@ let str = "Apple, Banana, Kiwi";
 let part1 = str.substring(7, 13);
 console.log(part1);
 
+let text2 = "      Hello World!      ";
+let text3 = text2.trim();
+console.log(text3);
+
 
