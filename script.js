@@ -125,3 +125,7 @@ let index = text5.indexOf("where");
 console.log(index);
 
 
+let text6 = "Hello world, welcome to the universe.";
+let start = text6.startsWith("world");
+console.log(start)
+
