@@ -102,4 +102,9 @@ document.getElementById("car").innerHTML = car.name + " " + car.model + " " + ca
 const address = `My Name is "Rayhan"`;
 console.log(address);
 
+// string method
+let text1 = "Apple, Banana, Kiwi";
+let part = text1.slice(7, 13);
+console.log(part);
+
 
