@@ -115,4 +115,9 @@ let text2 = "      Hello World!      ";
 let text3 = text2.trim();
 console.log(text3);
 
+let numb = 5;
+let text4 = numb.toString();
+let padded = text4.padStart(4, "0");
+console.log(padded);
+
 
