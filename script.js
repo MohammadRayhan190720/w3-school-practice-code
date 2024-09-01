@@ -169,4 +169,10 @@ function myFunction(value){
   console.log(value);
 }
 
+//at()
+const fruits11 = ["Banana", "Orange", "Apple", "Mango"];
+// let fruit1 = fruits11.at(2)
+let fruit1 = fruits11[2]
+console.log(fruit1);
+
 
