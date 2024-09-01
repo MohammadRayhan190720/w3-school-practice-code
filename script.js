@@ -216,5 +216,16 @@ function myFunction(value, index, array) {
 }
   console.log(over18);
 
+  //dates
+
+  const d = new Date();
+  console.log(d);
+  const date = new Date();
+  // console.log(date.toUTCString());
+  // console.log(date.toDateString());
+   console.log(date.toISOString());
+
+
+
 
 
