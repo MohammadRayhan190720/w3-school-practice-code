@@ -218,12 +218,17 @@ function myFunction(value, index, array) {
 
   //dates
 
-  const d = new Date();
-  console.log(d);
-  const date = new Date();
+  // const d = new Date();
+  // console.log(d);
+  // const date = new Date();
   // console.log(date.toUTCString());
   // console.log(date.toDateString());
-   console.log(date.toISOString());
+  //  console.log(date.toISOString());
+
+   //date format
+
+   const d = new Date("2015-03-25");
+   console.log(d);
 
 
 
