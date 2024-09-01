@@ -162,4 +162,11 @@ for (let i = 0; i <fruits1.length; i++){
   console.log(fruits1[i]);
 }
 
+//forEach
+
+fruits1.forEach(myFunction);
+function myFunction(value){
+  console.log(value);
+}
+
 
