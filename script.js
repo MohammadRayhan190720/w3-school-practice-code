@@ -191,20 +191,30 @@ console.log(points1);
 
 //array iteration
 
+// const numbers = [45, 4, 9, 16, 25];
+// // let txt = "";
+// numbers.forEach(myFunction);
+
+// function myFunction(value, index, array) {
+//   // txt += value + "<br>";
+//   console.log(value);
+// }
+
+// const numbers1 = [45, 4, 9, 16, 25];
+// const numbers2 = numbers1.map(myFunction1);
+
+// function myFunction1(value, index, array) {
+//   return value * 2;
+// }
+
 const numbers = [45, 4, 9, 16, 25];
-// let txt = "";
-numbers.forEach(myFunction);
+const over18 = numbers.filter(myFunction);
 
 function myFunction(value, index, array) {
-  // txt += value + "<br>";
-  console.log(value);
+  return value > 18;
+  // console.log(over18);
 }
+  console.log(over18);
 
-const numbers1 = [45, 4, 9, 16, 25];
-const numbers2 = numbers1.map(myFunction1);
-
-function myFunction1(value, index, array) {
-  return value * 2;
-}
 
 
