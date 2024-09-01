@@ -173,7 +173,8 @@ function myFunction(value){
 const fruits11 = ["Banana", "Orange", "Apple", "Mango"];
 // let fruit1 = fruits11.at(2)
 // let fruit1 = fruits11[2]
-let fruit1 = fruits11.sort();
+// let fruit1 = fruits11.sort();
+let fruit1 = fruits11.reverse();
 console.log(fruit1);
 
 
