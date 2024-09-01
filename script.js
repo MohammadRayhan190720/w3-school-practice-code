@@ -150,6 +150,16 @@ console.log(myCar);
 
 //accessing last array element
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
-let fruit = fruits[fruits.length - 1];
+// let fruit = fruits[fruits.length - 1];
+let fruit = fruits.length -1 ; //last array index
 console.log(fruit);
+
+//usieng loop
+
+const fruits1 = ["Banana", "Orange", "Apple", "Mango"];
+
+for (let i = 0; i <fruits1.length; i++){
+  console.log(fruits1[i]);
+}
+
 
