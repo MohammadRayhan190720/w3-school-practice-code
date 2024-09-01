@@ -7,12 +7,12 @@
 
 // }
 
-const text = "Rayhan";
+// const text = "Rayhan";
 // let letter = text.at(2);
 // document.getElementById("demo").innerHTML = text.charAt(1);
 // document.getElementById("demo").innerHTML = text.charCodeAt(0);
 // document.getElementById("demo").innerHTML = letter;
-document.getElementById("demo").innerHTML = text[0];
+// document.getElementById("demo").innerHTML = text[0];
 
 // let part = text.slice(2,5);
 // let part1 = text.toUpperCase();
@@ -57,87 +57,93 @@ document.getElementById("demo").innerHTML = text[0];
 
 // javascript output
 // document.getElementById("demo").innerHTML = "I Learn javascript"
-window.alert ("dont click hare");
+// window.alert ("dont click hare");
 
 // function
 
 
-function myFunction(a, b) {
+// function myFunction(a, b) {
   // Function returns the product of a and b
-  return a * b;
-}
+//   return a * b;
+// }
 
-console.log(myFunction(4, 3));
+// console.log(myFunction(4, 3));
 
 
 // object
 
-const car = {
-  name : "Fiat",
-  model : "500",
-  weight : "200kg",
-  color : "Black",
-  start : function(){
-    console.log ("car is started")
-  },
-  drive : function(){
-    console.log ("car is drived by us")
-  },
-  stop : function(){
-    console.log ("car is stoped")
-  },
-}
+// const car = {
+//   name : "Fiat",
+//   model : "500",
+//   weight : "200kg",
+//   color : "Black",
+//   start : function(){
+//     console.log ("car is started")
+//   },
+//   drive : function(){
+//     console.log ("car is drived by us")
+//   },
+//   stop : function(){
+//     console.log ("car is stoped")
+//   },
+// }
 
-document.getElementById("car").innerHTML = car.name + " " + car.model + " " + car.weight;
-// console.log(car.color);
-// console.log (car['model'])
-// console.log(car.drive());
+// document.getElementById("car").innerHTML = car.name + " " + car.model + " " + car.weight;
+// // console.log(car.color);
+// // console.log (car['model'])
+// // console.log(car.drive());
 
-// car.name = "BMW";
-// console.log(car.name);
-
-
-
-// string
-const address = `My Name is "Rayhan"`;
-console.log(address);
-
-// string method
-let text1 = "Apple, Banana, Kiwi";
-let part = text1.slice(7, 13);
-console.log(part);
-
-let str = "Apple, Banana, Kiwi";
-let part1 = str.substring(7, 13);
-console.log(part1);
-
-let text2 = "      Hello World!      ";
-let text3 = text2.trim();
-console.log(text3);
-
-let numb = 5;
-let text4 = numb.toString();
-let padded = text4.padStart(4, "0");
-console.log(padded);
-
-let text5 = "Please locate where 'locate' occurs!";
-let index = text5.indexOf("where");
-console.log(index);
+// // car.name = "BMW";
+// // console.log(car.name);
 
 
-let text6 = "Hello world, welcome to the universe.";
-let start = text6.startsWith("world",6);
-console.log(start)
 
-//template litelels
-let firstName = "John";
-let lastName = "Doe";
+// // string
+// const address = `My Name is "Rayhan"`;
+// console.log(address);
 
-let fullName = `Welcome ${firstName}, ${lastName}!`;
-console.log(fullName);
+// // string method
+// let text1 = "Apple, Banana, Kiwi";
+// let part = text1.slice(7, 13);
+// console.log(part);
 
-//numbers
-let x = "10";
-let y = "20";
-let z = x + y;
-console.log(z);
+// let str = "Apple, Banana, Kiwi";
+// let part1 = str.substring(7, 13);
+// console.log(part1);
+
+// let text2 = "      Hello World!      ";
+// let text3 = text2.trim();
+// console.log(text3);
+
+// let numb = 5;
+// let text4 = numb.toString();
+// let padded = text4.padStart(4, "0");
+// console.log(padded);
+
+// let text5 = "Please locate where 'locate' occurs!";
+// let index = text5.indexOf("where");
+// console.log(index);
+
+
+// let text6 = "Hello world, welcome to the universe.";
+// let start = text6.startsWith("world",6);
+// console.log(start)
+
+// //template litelels
+// let firstName = "John";
+// let lastName = "Doe";
+
+// let fullName = `Welcome ${firstName}, ${lastName}!`;
+// console.log(fullName);
+
+// //numbers
+// let x = "10";
+// let y = "20";
+// let z = x + y;
+// console.log(z);
+
+//array
+const cars = ["BMW","Saad","Toyota"]
+const myCar = cars.toString();
+console.log(myCar);
+
