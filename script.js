@@ -230,6 +230,12 @@ function myFunction(value, index, array) {
    const d = new Date("2015-03-25");
    console.log(d);
 
+   // math object
+  //  console.log(Math.floor(Math.random()));
+
+  console.log(Math.floor(Math.random() * 10));
+
+
 
 
 
