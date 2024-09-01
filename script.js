@@ -172,7 +172,8 @@ function myFunction(value){
 //at()
 const fruits11 = ["Banana", "Orange", "Apple", "Mango"];
 // let fruit1 = fruits11.at(2)
-let fruit1 = fruits11[2]
+// let fruit1 = fruits11[2]
+let fruit1 = fruits11.sort();
 console.log(fruit1);
 
 
