@@ -148,3 +148,8 @@ console.log(cars.length);
 const myCar = cars.toString();
 console.log(myCar);
 
+//accessing last array element
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+let fruit = fruits[fruits.length - 1];
+console.log(fruit);
+
