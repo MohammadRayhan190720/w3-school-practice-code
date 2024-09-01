@@ -144,6 +144,7 @@
 
 //array
 const cars = ["BMW","Saad","Toyota"]
+console.log(cars.length);
 const myCar = cars.toString();
 console.log(myCar);
 
