@@ -8,3 +8,9 @@ function randomNumber (min ,max){
 }
 
 console.log(randomNumber (1,6));
+
+//class ar all students name alphabatically binnas krte pari
+
+const students = ['Rayhan' , 'Tamanna' , 'Jakia' , 'Nishrat']
+console.log(students.sort())
+console.log(students)
