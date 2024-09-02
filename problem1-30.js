@@ -14,3 +14,10 @@ console.log(randomNumber (1,6));
 const students = ['Rayhan' , 'Tamanna' , 'Jakia' , 'Nishrat']
 console.log(students.sort())
 console.log(students)
+
+//all students roll crome onujaye sajate pari
+const rollNumbers = [10,1,4,50,60,20,30,40,80];
+const roll = rollNumbers.sort(function(a,b){
+  return a-b;
+})
+console.log(roll);
