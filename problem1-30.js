@@ -53,3 +53,6 @@ const letters = Array.from(sentence);
 
 }
 console.log(countVowels("I Love Bangladesh"))
+
+
+// kno array theke kivabe duplacate number ber kre ante pari
